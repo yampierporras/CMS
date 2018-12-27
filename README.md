@@ -10,6 +10,8 @@ El sistema gestor de contenidos personalizado permite administrar contenido de u
 # DataBase
 
 > **Estándares DB**
+> **El nombramiento de las tablas se realizaran anteponiedo 2 prefijos, el primero hace referencia al nombre del proyacto indica que es una tabla seguido del nombre de este:"'P'T_NOMBRETABLA"** OPCION 1
+> 
 
 # BackEnd
 
