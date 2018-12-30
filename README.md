@@ -25,9 +25,9 @@ El nombramiento de las tablas se realizaran en mayusculas y en plural anteponied
 
  los parametros seran los mismos de los campos de las tablas, anteponiendoles el simbolo "@"
 
-Usuarios: AS - administrador del sistema / US - usuario del sistema
+-Usuarios: AS - administrador del sistema / US - usuario del sistema
 
-Roles: [Nombrerol]
+-Roles: [Nombrerol] 
 
 
 
