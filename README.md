@@ -23,16 +23,16 @@ El nombramiento de las tablas se realizaran en mayusculas y en plural anteponied
 
 -procedimientos almacenados: [proc] + [_] + [nombre del procedimiento]
 
- los parametros seran los mismos de los campos de las tablas, anteponiendoles el simbolo "@"
+ los parametros seran los mismos de los campos de las tablas
 
 -Usuarios: AS - administrador del sistema / US - usuario del sistema
 
--Roles: [Nombrerol] 
+-Roles: [Nombrerol]
 
 
 
 
- 
+
 # BackEnd
 
 > **Estándares Back**

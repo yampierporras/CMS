@@ -1,0 +1,8 @@
+USE BD_Andromeda;
+
+CREATE OR REPLACE TABLE ATE_Idiomas
+(
+    idIdioma INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    tidDescripcion VARCHAR(100) NOT NULL,
+    bidVigencia BOOL NOT NULL
+);
