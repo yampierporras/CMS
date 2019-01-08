@@ -3,7 +3,9 @@ CREATE OR REPLACE TABLE AT_Usuarios(
     tusCorreo VARCHAR(50) NOT NULL,
     tusContraseña VARCHAR(20) NOT NULL,
     busVigencia BOOL NOT NULL,
-    personaID INT NOT NULL
+    personaID INT NOT NULL,
+    FOREIGN KEY (personaID) 
+        REFERENCES AT_Personas (idPersona)
 );
 
 CREATE OR REPLACE TABLE AT_Personas(

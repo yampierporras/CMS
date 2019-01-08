@@ -46,9 +46,9 @@ BEGIN
     FROM tempPersona A
     ON DUPLICATE KEY
     UPDATE 	
-			tperNombre = A.tperNombre,
-			dperFechaNac = A.dperFechaNac,
-            bperVigencia = A.bperVigencia;
+		tperNombre = A.tperNombre,
+		dperFechaNac = A.dperFechaNac,
+        bperVigencia = A.bperVigencia;
     
     SET @IDPERSONA = LAST_INSERT_ID();
     
@@ -85,8 +85,7 @@ SET @JSONALGO=
 
 CALL proc_GuardarUsuario (@JSONALGO);
 
-
 use bd_andromeda;
+
 select *from at_usuarios;
 select *from at_personas;
-
